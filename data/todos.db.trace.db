@@ -1,0 +1,32 @@
+2016-08-18 12:43:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Синтаксическая ошибка в выражении SQL "UPDATE TODOS SET NAME=ANOTHER EDITED[*] TASK, COMPLETED=FALSE, EDITED=FALSE WHERE ID=3 "
+Syntax error in SQL statement "UPDATE TODOS SET NAME=ANOTHER EDITED[*] TASK, COMPLETED=FALSE, EDITED=FALSE WHERE ID=3 "; SQL statement:
+UPDATE todos SET name=ANOTHER EDITED TASK, completed=false, edited=false WHERE id=3 [42000-192]
+2016-08-18 12:43:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Синтаксическая ошибка в выражении SQL "UPDATE TODOS SET NAME=ANOTHER EDITED[*] TASK, COMPLETED=FALSE, EDITED=FALSE WHERE ID=3 "
+Syntax error in SQL statement "UPDATE TODOS SET NAME=ANOTHER EDITED[*] TASK, COMPLETED=FALSE, EDITED=FALSE WHERE ID=3 "; SQL statement:
+UPDATE todos SET name=ANOTHER EDITED TASK, completed=false, edited=false WHERE id=3 [42000-192]
+2016-08-18 23:19:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Синтаксическая ошибка в выражении SQL "DELETE *[*] FROM TODOS WHERE ID=2 "; ожидалось "identifier"
+Syntax error in SQL statement "DELETE *[*] FROM TODOS WHERE ID=2 "; expected "identifier"; SQL statement:
+DELETE * FROM todos WHERE id=2 [42001-192]
+2016-08-18 23:19:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Синтаксическая ошибка в выражении SQL "DELETE *[*] FROM TODOS WHERE ID=2 "; ожидалось "identifier"
+Syntax error in SQL statement "DELETE *[*] FROM TODOS WHERE ID=2 "; expected "identifier"; SQL statement:
+DELETE * FROM todos WHERE id=2 [42001-192]
+2016-08-18 23:19:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Синтаксическая ошибка в выражении SQL "DELETE *[*] FROM TODOS WHERE ID=3 "; ожидалось "identifier"
+Syntax error in SQL statement "DELETE *[*] FROM TODOS WHERE ID=3 "; expected "identifier"; SQL statement:
+DELETE * FROM todos WHERE id=3 [42001-192]
+2016-08-18 23:19:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Синтаксическая ошибка в выражении SQL "DELETE *[*] FROM TODOS WHERE ID=3 "; ожидалось "identifier"
+Syntax error in SQL statement "DELETE *[*] FROM TODOS WHERE ID=3 "; expected "identifier"; SQL statement:
+DELETE * FROM todos WHERE id=3 [42001-192]
+2016-08-18 23:22:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Синтаксическая ошибка в выражении SQL "DELETE *[*] FROM TODOS WHERE ID=1 "; ожидалось "identifier"
+Syntax error in SQL statement "DELETE *[*] FROM TODOS WHERE ID=1 "; expected "identifier"; SQL statement:
+DELETE * FROM todos WHERE id=1 [42001-192]
+2016-08-18 23:22:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Синтаксическая ошибка в выражении SQL "DELETE *[*] FROM TODOS WHERE ID=1 "; ожидалось "identifier"
+Syntax error in SQL statement "DELETE *[*] FROM TODOS WHERE ID=1 "; expected "identifier"; SQL statement:
+DELETE * FROM todos WHERE id=1 [42001-192]
