@@ -27,9 +27,10 @@ public class App {
 //    DONE: Add unit tests to test your model and dao implementation
 //    DONE: Add functional testing to prove the API is working as expected
 
-    public static void main(String[] args) {
+    public static final String DATASOURCE = "jdbc:h2:todos.db";
+    public static final int PORT_NUMBER = 8080;
 
-        String datasource = "jdbc:h2:E:/Projects/ToDo/data/todos.db";
+    public static void main(String[] args) {
 
         if (args.length > 0) {
             if (args.length != 2) {
@@ -37,10 +38,11 @@ public class App {
                 System.exit(0);
             }
             port(Integer.parseInt(args[0]));
-            datasource = args[1];
+            String datasource = args[1];
         }
 
-        Sql2o sql2o = new Sql2o (String.format("%s;INIT=RUNSCRIPT from 'classpath:db/init.sql'", datasource), "", "");
+        port(PORT_NUMBER);
+        Sql2o sql2o = new Sql2o (String.format("%s;INIT=RUNSCRIPT from 'classpath:db/init.sql'", DATASOURCE), "", "");
         TodoDao todoDao = new Sql2oTodoDao(sql2o);
         Gson gson = new Gson();
 
