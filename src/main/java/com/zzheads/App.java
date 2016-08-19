@@ -32,17 +32,20 @@ public class App {
 
     public static void main(String[] args) {
 
+        String datasource = DATASOURCE;
+        int port = PORT_NUMBER;
+
         if (args.length > 0) {
             if (args.length != 2) {
                 System.out.printf("java Api <port> <datasource>%n");
                 System.exit(0);
             }
-            port(Integer.parseInt(args[0]));
-            String datasource = args[1];
+            port=Integer.parseInt(args[0]);
+            datasource = args[1];
         }
 
-        port(PORT_NUMBER);
-        Sql2o sql2o = new Sql2o (String.format("%s;INIT=RUNSCRIPT from 'classpath:db/init.sql'", DATASOURCE), "", "");
+        port(port);
+        Sql2o sql2o = new Sql2o (String.format("%s;INIT=RUNSCRIPT from 'classpath:db/init.sql'", datasource), "", "");
         TodoDao todoDao = new Sql2oTodoDao(sql2o);
         Gson gson = new Gson();
 
