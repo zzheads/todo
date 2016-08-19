@@ -27,7 +27,7 @@ public class App {
 //    DONE: Add unit tests to test your model and dao implementation
 //    DONE: Add functional testing to prove the API is working as expected
 
-    public static final String DATASOURCE = "jdbc:h2:todos.db";
+    public static final String DATASOURCE = "jdbc:h2:~/data/todos.db";
     public static final int PORT_NUMBER = 8080;
 
     public static void main(String[] args) {
