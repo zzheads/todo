@@ -8,6 +8,8 @@ import org.junit.Test;
 import org.sql2o.Connection;
 import org.sql2o.Sql2o;
 
+import java.util.List;
+
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
 
@@ -74,6 +76,9 @@ public class Sql2oTodoDaoTest {
         assertEquals(1, dao.findAll().size());
         dao.delete(todo2.getId());
         assertEquals(0, dao.findAll().size());
+    }
+
+    @Test public void cantFindDaoSituationToThrowDaoException() throws Exception {
     }
 
     private Todo newTestTodo() {

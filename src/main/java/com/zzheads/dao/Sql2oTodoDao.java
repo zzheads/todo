@@ -43,13 +43,7 @@ public class Sql2oTodoDao implements TodoDao {
     }
 
     @Override public void delete(Todo todo) throws DaoException {
-        String sql = String.format("DELETE FROM todos WHERE id=%d", todo.getId());
-        try (Connection con = sql2o.open()) {
-            con.createQuery(sql)
-                .executeUpdate();
-        } catch (Sql2oException ex) {
-            throw new DaoException(ex, "Problem deleting todo.");
-        }
+        delete(todo.getId());
     }
 
     @Override public void delete(int id) throws DaoException {

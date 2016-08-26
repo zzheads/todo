@@ -9,10 +9,11 @@ public class Todo {
     private boolean completed;
     private boolean edited;
 
+    public Todo() {
+    }
+
     public Todo(String name) {
         this.name = name;
-        this .completed = false;
-        this.edited = false;
     }
 
     public int getId() {
@@ -48,21 +49,10 @@ public class Todo {
     }
 
     @Override public boolean equals(Object o) {
-        if (this == o)
-            return true;
-        if (!(o instanceof Todo))
-            return false;
-
+        if (this == o) return true;
+        if (!(o instanceof Todo)) return false;
         Todo todo = (Todo) o;
-
-        if (getId() != todo.getId())
-            return false;
-        if (isCompleted() != todo.isCompleted())
-            return false;
-        if (isEdited() != todo.isEdited())
-            return false;
-        return getName().equals(todo.getName());
-
+        return getId() == todo.getId() && isCompleted() == todo.isCompleted() && isEdited() == todo.isEdited() && getName().equals(todo.getName());
     }
 
     @Override public int hashCode() {

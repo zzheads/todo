@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="todo:jar">
+    <output-path>$PROJECT_DIR$/build/classes/artifacts/todo_jar</output-path>
+    <root id="archive" name="todo.jar">
+      <element id="module-output" name="todo" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-client/9.3.2.v20150730/f7cdf36509f8b9d8de49ed60dcb215aa92c36e41/websocket-client-9.3.2.v20150730.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-server/9.3.2.v20150730/d53622049200cee5c344b29c848d581aa876f93e/jetty-server-9.3.2.v20150730.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-simple/1.7.12/42db62298b899818ff17352cbc00050e940bbfb0/slf4j-simple-1.7.12.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-common/9.3.2.v20150730/bd2abf31292508104bacfaba7eceb88d7d5f9ad0/websocket-common-9.3.2.v20150730.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-http/9.3.2.v20150730/5a811cf50295ddae7df488e62662524380f18821/jetty-http-9.3.2.v20150730.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.12/8e20852d05222dc286bf1c71d78d0531e177c317/slf4j-api-1.7.12.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-xml/9.3.2.v20150730/d064e05b277e7c5522f211c590a04adf99060bcd/jetty-xml-9.3.2.v20150730.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-api/9.3.2.v20150730/be1525f9e86d45ff163394c573ff46773fb40812/websocket-api-9.3.2.v20150730.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-security/9.3.2.v20150730/194f37706614f236bfbf384c1e7cf531771b38f7/jetty-security-9.3.2.v20150730.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.h2database/h2/1.4.192/1106492605db135523d2817881cdf029d9292afa/h2-1.4.192.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sql2o/sql2o/1.5.4/6a3589e3e86209f66776c6a108bf929df3ea299b/sql2o-1.5.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-io/9.3.2.v20150730/22bd4ad4856527847772f975a997f17da1e6766/jetty-io-9.3.2.v20150730.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-util/9.3.2.v20150730/96eab74d8886ee9d51b6a3eeab9744807e842169/jetty-util-9.3.2.v20150730.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-servlet/9.3.2.v20150730/a7ce8b11d340e152dd7dc94e7605c84230f05cf5/jetty-servlet-9.3.2.v20150730.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-webapp/9.3.2.v20150730/b4bcbd3c978b587c6e4ca13d2ac90bd25ed2c3a2/jetty-webapp-9.3.2.v20150730.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/3cd63d075497751784b2fa84be59432f4905bf7c/javax.servlet-api-3.1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sparkjava/spark-core/2.3/b0326d867f1ecbc8d624f64175d2aa5809bb0599/spark-core-2.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-servlet/9.3.2.v20150730/403f4956c46fc5d76257148b5ad36c1e1ca485cd/websocket-servlet-9.3.2.v20150730.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-server/9.3.2.v20150730/b43bc3a2fcabd1eb04a522b251d98efd010a2c0f/websocket-server-9.3.2.v20150730.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
